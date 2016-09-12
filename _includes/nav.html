@@ -1,6 +1,16 @@
 <nav>
   <ul>
-    <li><a href="{{site.baseurl}}/" class="current">Home</a></li>
-    <li><a href="{{site.baseurl}}/photography.html">Photography</a></li>
+    <li>
+      <a href="{{site.baseurl}}/"
+      class="{% if page.url == '/' %}current{% endif %}">Home</a>
+    </li>﻿
+    <li>
+      <a href="{{site.baseurl}}/photography.html"
+      class="{% if page.url == '/photography.html' %}current{% endif %}">Photography</a>
+    </li>
+    <li>
+      <a href="{{site.baseurl}}/blog.html"
+      class="{% if page.url == '/blog.html' %}current{% endif %}">Blog</a>
+    </li>
   </ul>
 </nav>
