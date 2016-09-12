@@ -1,11 +1,31 @@
 html {
   margin: 0;
   padding: 0;
+  font: normal 100%/1.4 Tahoma,serif;
+  background-color: #FFC0CB;
+}
 
-  font: normal 100%/1.4 Georgia,serif;
+ul {
+  list-style-type: none;
+  display: flex;
+  background-color: #E6E6FA;
+}
+
+li a {
+  text-align: center;
+  display: block;
+  width: 120px;
+  text-decoration: none;
+  padding: 8px 16px;
+  color: #000;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
 }
 
 .current {
-  background-color: #228B22;
+  background-color: #6495ED;
   color: #fff;
 }
