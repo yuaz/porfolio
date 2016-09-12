@@ -5,13 +5,23 @@ html {
   background-color: #FFC0CB;
 }
 
-ul {
+.nav {
   list-style-type: none;
   display: flex;
   background-color: #E6E6FA;
 }
 
-li a {
+.nav-top > li a {
+  text-align: center;
+  font-family: fantasy;
+  display: block;
+  width: 120px;
+  text-decoration: none;
+  padding: 8px 16px;
+  color: #000;
+}
+
+.nav-bottom > li a {
   text-align: center;
   display: block;
   width: 120px;
@@ -20,7 +30,7 @@ li a {
   color: #000;
 }
 
-li a:hover {
+.nav > li a:hover {
   background-color: #555;
   color: #fff;
 }
@@ -29,3 +39,6 @@ li a:hover {
   background-color: #6495ED;
   color: #fff;
 }
+
+
+
