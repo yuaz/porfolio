@@ -1,0 +1,6 @@
+.masterheader {
+  padding: 1em;
+  background: #fff url('../images/masterhead.jpg') no-repeat;
+  background-size: cover;
+  color: #fff;
+}

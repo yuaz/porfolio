@@ -6,9 +6,9 @@ layout: default
 <h4>List of Categories</h4>
 
 <ol>
-{% for folder in site.data.photography-categories %}
+{% for folder in site.categories.countries %}
   <li>
-    <a href="">{{folder.title}}</a>
+    <a href="{{site.baseurl}}{{folder.url}}">{{folder.title}}</a>
     {{folder.content | markdownify }}
   </li>
 {% endfor %}
