@@ -6,19 +6,19 @@
     </li>﻿
     <li class="dropdown">
       <a href="{{site.baseurl}}/photography"
-      class="{% if page.url contains 'photo' %}current{% endif %}">Photography</a>
+      class="{% if page.url contains 'photo' or page.categories contains 'countries' %}current{% endif %}">Photography</a>
       <ul class="dropdown-content">
-        <li><a href="{{site.baseurl}}/countries/0000/01/03/canada/">Canada</a></li>
-        <li><a href="{{site.baseurl}}/countries/0000/01/02/china/">China</a></li>
-        <li><a href="{{site.baseurl}}/countries/0000/01/01/usa/">United States</a></li>
+        <li><a href="{{site.baseurl}}/countries/0000/01/03/canada/">Canada</a></li></br>
+        <li><a href="{{site.baseurl}}/countries/0000/01/02/china/">China</a></li></br>
+        <li><a href="{{site.baseurl}}/countries/0000/01/01/usa/">United States</a></li></br>
       </ul>
     </li>
     <li class="dropdown">
       <a href="{{site.baseurl}}/blog"
       class="{% if page.url contains 'blog' or page.url contains 'data-projects' %}current{% endif %}">Blog</a>
         <ul class="dropdown-content">
-            <li><a href="{{site.baseurl}}/blog">Blog Posts</a></li>
-            <li><a href="{{site.baseurl}}/data-projects">Data Projects</a></li>
+            <li><a href="{{site.baseurl}}/blog">Blog Posts</a></li></br>
+            <li><a href="{{site.baseurl}}/data-projects">Data Projects</a></li></br>
         </ul>
     </li>
   </ul>
