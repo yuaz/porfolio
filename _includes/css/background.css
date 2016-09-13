@@ -5,3 +5,8 @@
   background-size: cover;
   color: #fff;
 }
+
+.front-background {
+  background: #fff url('../images/background-tree.jpg') no-repeat center center;
+  background-size: cover;
+}

@@ -1,7 +1,18 @@
 ---
-layout: default
+layout: front-page
 ---
 
-  <h1>Porfolio</h1>
-  <h3>Welcome world</h3>
 
+<div>
+<h1>Porfolio</h1>
+  <ul>
+    <li>
+      <a href="{{site.baseurl}}/">Home</a>
+    </li>﻿
+    <li>
+      <a href="{{site.baseurl}}/photography">Photography</a>
+    </li>
+    <li>
+      <a href="{{site.baseurl}}/blog" class="{% if page.url contains 'blog' or page.url contains 'data-projects' %}current{% endif %}">Blog</a>
+    </li>
+</div>
