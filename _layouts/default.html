@@ -2,14 +2,13 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Yuan's Porfolio</title>
+  <title>{% if page.title %}{{page.title}} - {% endif %} Yuan's Porfolio</title>
   <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
 </head>
 <body>
 <header class="masterheader">
 <h1>Yuan's Porfolio</h1>
 {% include nav.html navclass='nav-top' %}
-
 </header>
 
   {{content}}
