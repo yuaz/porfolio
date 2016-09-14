@@ -3,16 +3,17 @@
   background-color: #87CEFA;
 }
 
-li , .current {
+.nav > li , .current {
   display: inline-block;
   color: white;
   text-align: center;
 }
 
-li a:hover, .dropdown:hover .current {
+.nav > li > a:hover, .dropdown:hover .current {
     background-color: #808080;
     color: #fff;
 }
+
 
 .dropdown-content {
     display: none;
@@ -32,7 +33,7 @@ li a:hover, .dropdown:hover .current {
 }
 
 .current {
-  background-color: #ADD8E6;
+  background-color: #e6add8;
   color: #fff;
 }
 
@@ -43,4 +44,6 @@ li a:hover, .dropdown:hover .current {
 
 .dropdown:hover .dropdown-content {
     display: table-row;
+      list-style: none;
+
 }

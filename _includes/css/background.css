@@ -7,6 +7,10 @@
 }
 
 .front-background {
-  background: #fff url('../images/background-tree.jpg') no-repeat center center;
+  background: #fff url('../images/background-tree.jpg') no-repeat center center fixed;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  position: relative;
 }
