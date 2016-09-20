@@ -25,3 +25,23 @@
   position: relative;
   height: 100vh;
 }
+
+.page {
+  background: #fff url('../images/background-triangle.jpg') no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+
+.blog {
+  background: #fff url('../images/background-flower.jpg') no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  position: relative;
+  height: 100vh;
+}
