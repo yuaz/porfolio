@@ -1,16 +1,27 @@
 .masterheader {
-  padding: 1em;
-  margin: 1em;
-  background: #fff url('../images/masterhead.jpg') no-repeat;
+  background-color: #191919;
   background-size: cover;
   color: #fff;
+  width: 100%;
+  height: 4em;
 }
 
-.front-background {
+.footer {
+  background-color: #191919;
+  background-size: cover;
+  color: #fff;
+  width: 100%;
+  height: 2em;
+  text-align: center;
+}
+
+
+.home {
   background: #fff url('../images/background-tree.jpg') no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   position: relative;
+  height: 100vh;
 }
