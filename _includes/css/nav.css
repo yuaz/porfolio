@@ -6,13 +6,14 @@
 }
 
 .nav {
-  text-align: right;
+  text-align: center;
 }
 
 .nav li {
   display: inline-block;
   color: white;
   text-align: center;
+  position: relative;
 }
 
 .nav > li > a:not(.current) {

@@ -4,10 +4,7 @@
         border: 0;
         outline: 0;
         font-size: 100%;
-        vertical-align: baseline;
         background: transparent;
-        overflow: -moz-scrollbars-vertical;
-        overflow-y: scroll;
     }
 
 html {
