@@ -1,18 +1,21 @@
 .name {
-  margin-left: 2em;
+  padding-left: 1em;
+  padding-top: 0.5em;
+  font-family: Lobster Two;
+  font-size: 180%;
 }
 
 .nav {
   text-align: right;
 }
 
-.nav > li {
+.nav li {
   display: inline-block;
   color: white;
   text-align: center;
 }
 
-.nav > li > a {
+.nav > li > a:not(.current) {
   text-align: center;
   display: block;
   width: 120px;
@@ -22,10 +25,27 @@
 
 .dropdown-content {
     display: none;
+    background-color: #191919;
+    position: absolute;
+    list-style-type: none;
+}
+
+.dropdown-content a {
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  color: #247598;
+}
+
+.dropdown:hover .dropdown-content {
+  display:block;
 }
 
 .current {
-  font-style: italic;
-  color: pink;
+  text-decoration: none;
+  color: #247598;
 }
 
