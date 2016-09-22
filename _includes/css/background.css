@@ -3,7 +3,8 @@
   background-size: cover;
   color: #fff;
   width: 100%;
-  height: 5em;
+  height: 4.5em;
+  z-index: 0;
 }
 
 .footer {

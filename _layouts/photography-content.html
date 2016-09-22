@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>{% if page.title %}{{page.title}} - {% endif %} Yuan Zhang</title>
+  <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
+</head>
+
+<body>
+   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lobster+Two">
+<div class="masterheader">
+    <div class="name"><h1>Yuan Zhang</h1></div>
+    {% include nav.html %}
+</div>
+<div class="page">
+  {{content}}
+
+
+</div>
+<div class="footer">
+    <p>&copy; 2016  Yuan Zhang. All Rights Reserved.</p>
+</div>
+
+</body>
+</html>

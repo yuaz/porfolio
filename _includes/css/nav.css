@@ -1,6 +1,6 @@
 .name {
   padding-left: 1em;
-  padding-top: 0.5em;
+  padding-top: 0.2em;
   font-family: Lobster Two;
   font-size: 180%;
 }
@@ -13,7 +13,6 @@
   display: inline-block;
   color: white;
   text-align: center;
-  position: relative;
   width: 120px;
 }
 
@@ -30,16 +29,19 @@
     background-color: #191919;
     position: absolute;
     list-style-type: none;
+    overflow: visible;
+    z-index: 1000;
 }
 
 .dropdown-content a {
   text-decoration: none;
   display: block;
   color: white;
+  padding: 0.5em;
 }
 
 .dropdown-content a:hover {
-  color: #247598;
+  color: #8FD8D8;
 }
 
 .dropdown:hover .dropdown-content {
@@ -48,7 +50,7 @@
 
 .current {
   text-decoration: none;
-  color: #247598;
+  color: #8FD8D8;
   width: 120px;
 }
 
