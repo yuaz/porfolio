@@ -1,0 +1,19 @@
+.front-name {
+  font-family: Tahoma;
+  text-align: left;
+  font-size: 120px;
+  color: white;
+  padding-top: 28%;
+  padding-left: 5%;
+  position: fixed;
+}
+
+.front-meta {
+  font-family: Tahoma;
+  text-align: left;
+  font-size: 60px;
+  color: #ADD8E6;
+  padding-top: 37%;
+  padding-left: 5%;
+  position: fixed;
+}
