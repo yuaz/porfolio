@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: photography-content
 title: Working on Personal Website
 meta: My thoughts on creating a personal website.
 category: blog

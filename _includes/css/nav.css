@@ -30,7 +30,6 @@
     position: absolute;
     list-style-type: none;
     overflow: visible;
-    z-index: 1000;
 }
 
 .dropdown-content a {

@@ -2,20 +2,17 @@
   <div class="nav-position">
   <ul class="nav {{include.navclass}}">
     <li>
-      <a href="{{site.baseurl}}/"
-      class="{% if page.url == '/' %}current{% endif %}">Home</a>
+      <a href="{{site.baseurl}}/#home">Home</a>
     </li>﻿
     <li>
-      <a href="{{site.baseurl}}/aboutme"
-      class="{% if page.url contains 'aboutme' %}current{% endif %}">About Me</a>
+      <a href="{{site.baseurl}}/#aboutme">About Me</a>
     </li>
     <li>
-      <a href="{{site.baseurl}}/myprojects"
-      class="{% if page.url contains 'myprojects' %}current{% endif %}">My Projects</a>
+      <a href="{{site.baseurl}}/#myprojects">My Projects</a>
     </li>
     <li class="dropdown">
-      <a href="{{site.baseurl}}/photography"
-      class="{% if page.url contains 'photo' or page.categories contains 'countries' %}current{% endif %}">Photography</a>
+      <a href="{{site.baseurl}}/#photography"
+      class="{% if page.categories contains 'photo' or page.categories contains 'countries' %}current{% endif %}">Photography</a>
       <ul class="dropdown-content">
         <li><a href="{{site.baseurl}}/countries/0000/01/03/canada/">Canada</a></li></br>
         <li><a href="{{site.baseurl}}/countries/0000/01/02/china/">China</a></li></br>

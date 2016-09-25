@@ -3,9 +3,9 @@
   text-align: left;
   font-size: 120px;
   color: white;
-  padding-top: 28%;
+  padding-top: 20%;
   padding-left: 5%;
-  position: fixed;
+  position: relative;
 }
 
 .front-meta {
@@ -13,7 +13,23 @@
   text-align: left;
   font-size: 60px;
   color: #ADD8E6;
-  padding-top: 37%;
   padding-left: 5%;
-  position: fixed;
+  position: relative;
+  z-index: 5;
 }
+
+.contact-links {
+  position: relative;
+  padding-left:71%;
+  z-index: 1;
+}
+
+.contact-links li {
+  display: inline-block;
+
+}
+
+.contact-links li a {
+  font-size: 40px;
+}
+

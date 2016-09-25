@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: photography-content
 title: First Review
 meta: This is my first review.
 source:
