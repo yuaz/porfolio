@@ -24,6 +24,10 @@
   color: white;
 }
 
+.nav li a:hover {
+  color: #8FD8D8;
+}
+
 .dropdown-content {
     display: none;
     background-color: #191919;
