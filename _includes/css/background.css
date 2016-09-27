@@ -22,7 +22,7 @@
 
 
 .home {
-  background: #fff url('../images/background-tree.jpg') no-repeat center center fixed;
+  background: #fff url('../images/background-front.jpg') no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -33,7 +33,7 @@
 }
 
 .aboutme {
-  background: #fff url('../images/background-triangle.jpg') no-repeat center center fixed;
+  background: #fff url('../images/background-aboutme.png') no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -43,7 +43,7 @@
 }
 
 .myprojects {
-  background: #fff url('../images/background-flower.jpg') no-repeat center center fixed;
+  background: #fff url('../images/background-bird.jpg') no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -53,7 +53,7 @@
 }
 
 .photography {
-  background: #fff url('../images/background-space.jpg') no-repeat center center fixed;
+  background: #fff url('../images/background-amsterdam.jpg') no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;

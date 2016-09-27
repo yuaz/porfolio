@@ -1,9 +1,9 @@
 .front-name {
   font-family: Tahoma;
   text-align: left;
-  font-size: 120px;
-  color: white;
-  padding-top: 20%;
+  font-size: 80px;
+  color: #3EA3CF;
+  padding-top: 15%;
   padding-left: 5%;
   position: relative;
 }
@@ -11,16 +11,18 @@
 .front-meta {
   font-family: Tahoma;
   text-align: left;
-  font-size: 60px;
-  color: #ADD8E6;
+  font-size: 40px;
+  color: #35D1DA;
   padding-left: 5%;
   position: relative;
   z-index: 5;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 .contact-links {
   position: relative;
-  padding-left:71%;
+  padding-left:80%;
+  padding-top: 10%;
   z-index: 1;
 }
 
@@ -31,5 +33,50 @@
 
 .contact-links li a {
   font-size: 40px;
+}
+
+.aboutme-name {
+  font-family: Kaushan Script;
+  text-align: left;
+  font-size: 80px;
+  color: white;
+  padding-top: 6%;
+  padding-left: 26%;
+  position: relative;
+}
+
+.aboutme-para-bg {
+  background: rgba(255, 255, 255, .7);
+  width: 45%;
+  height:55%;
+  margin-left: 15%;
+  margin-top: 2%;
+}
+
+.aboutme-text {
+  color: black;
+  margin: 5%;
+  padding-top: 2%;
+  text-align: justify;
+  font-family: Caveat Brush;
+  font-size: 1.2em;
+}
+
+.myprojects-name {
+  font-family: Kaushan Script;
+  text-align: center;
+  font-size: 80px;
+  color: black;
+  padding-top: 15%;
+  position: relative;
+}
+
+.myprojects-desc {
+  font-family: Kaushan Script;
+  text-align: center;
+  font-size: 50px;
+  color: black;
+  padding-top: 6%;
+  position: relative;
 }
 

@@ -1,0 +1,23 @@
+.photography-name {
+  font-family: Kaushan Script;
+  text-align: center;
+  font-size: 80px;
+  color: black;
+  padding-top: 10%;
+  position: relative;
+}
+
+
+.photography-countries {
+  padding-top: 5%;
+  font-size: 0;
+  text-align: center;
+}
+
+.photography-countries > li {
+  display: inline-block;
+}
+
+.photography-countries > li > a {
+  position: relative;
+}
