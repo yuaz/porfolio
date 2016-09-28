@@ -16,8 +16,20 @@
 
 .photography-countries > li {
   display: inline-block;
+  border: 4px solid black;
 }
 
 .photography-countries > li > a {
   position: relative;
+}
+
+.set {
+  padding-top: 8%;
+}
+
+#picture {
+  float: left;
+  width: 22%;
+  padding: 1em;
+  list-style: none;
 }
