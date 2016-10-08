@@ -1,8 +1,8 @@
 ---
 ---
 
-{% include css/common.css %}
-{% include css/background.css %}
-{% include css/nav.css %}
-{% include css/text-edit.css %}
-{% include css/photography.css %}
+{% include ../css/common.css %}
+{% include ../css/background.css %}
+{% include ../css/nav.css %}
+{% include ../css/text-edit.css %}
+{% include ../css/photography.css %}
