@@ -7,25 +7,18 @@
     <li>
       <a href="{{site.baseurl}}/#aboutme">About Me</a>
     </li>
-    <li>
-      <a href="{{site.baseurl}}/#myprojects">My Projects</a>
-    </li>
     <li class="dropdown">
-      <a href="{{site.baseurl}}/#photography"
-      class="{% if page.categories contains 'photo' or page.categories contains 'countries' %}current{% endif %}">Photography</a>
+      <a href="{{site.baseurl}}/#myprojects"
+      class="{% if page.categories contains 'photo' or page.categories contains 'countries' %}current{% endif %}">My Projects</a>
       <ul class="dropdown-content">
-        <li><a href="{{site.baseurl}}/canada">Canada</a></li></br>
-        <li><a href="{{site.baseurl}}/china">China</a></li></br>
-        <li><a href="{{site.baseurl}}/usa">United States</a></li></br>
+        <li><a href="{{site.baseurl}}/canada">Kaggle</a></li></br>
+        <li><a href="{{site.baseurl}}/china">IDEA</a></li></br>
+        <li><a href="{{site.baseurl}}/usa">Personal Researches</a></li></br>
       </ul>
     </li>
     <li class="dropdown">
-      <a href="{{site.baseurl}}/blog"
+      <a href="https://medium.com/@yuanzh"
       class="{% if page.url contains 'blog' or page.url contains 'data-projects' %}current{% endif %}">Blog</a>
-        <ul class="dropdown-content">
-            <li><a href="{{site.baseurl}}/blog">Blog Posts</a></li></br>
-            <li><a href="{{site.baseurl}}/data-projects">Data Projects</a></li></br>
-        </ul>
     </li>
   </ul>
   </div>

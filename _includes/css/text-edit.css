@@ -1,10 +1,10 @@
 .front-name {
   font-family: Tahoma;
   text-align: left;
-  font-size: 80px;
+  font-size: 100px;
   color: #3EA3CF;
-  padding-top: 15%;
-  padding-left: 5%;
+  padding-top: 25%;
+  padding-left: 2%;
   position: relative;
 }
 
@@ -13,7 +13,7 @@
   text-align: left;
   font-size: 40px;
   color: #35D1DA;
-  padding-left: 5%;
+  padding-left: 2%;
   position: relative;
   z-index: 5;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
@@ -21,20 +21,25 @@
 
 .contact-links {
   position: relative;
-  padding-left:80%;
-  padding-top: 10%;
+  text-align: center;
+  padding-top: 0.2em;
   z-index: 1;
 }
 
-.contact-links li {
+.contact-links > li {
   display: inline-block;
-
 }
-
-.contact-links li a {
-  font-size: 40px;
+/*
+.contact-links > li > a {
+  display:inline-block;
+  border-radius: 36px;
+  width: 32px;
+  height: 32px;
+  box-sizing: border-box;
+  border: 2px solid white;
+  z-index: 10;
 }
-
+*/
 .aboutme-name {
   font-family: Kaushan Script;
   text-align: left;
