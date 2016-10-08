@@ -25,7 +25,7 @@
 }
 
 .nav li a:hover {
-  color: #8FD8D8;
+  color: #7EEB36;
 }
 
 .dropdown-content {
@@ -44,7 +44,7 @@
 }
 
 .dropdown-content a:hover {
-  color: #8FD8D8;
+  color: #7EEB36;
 }
 
 .dropdown:hover .dropdown-content {
@@ -53,7 +53,7 @@
 
 .current {
   text-decoration: none;
-  color: #8FD8D8;
+  color: #7EEB36;
   width: 120px;
 }
 
