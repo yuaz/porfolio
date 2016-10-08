@@ -1,25 +1,25 @@
-.photography-name {
+.myprojects-name {
   font-family: Kaushan Script;
   text-align: center;
   font-size: 80px;
   color: black;
-  padding-top: 10%;
+  padding-top: 8%;
   position: relative;
 }
 
 
-.photography-countries {
+.myprojects-projects {
   padding-top: 5%;
   font-size: 0;
   text-align: center;
 }
 
-.photography-countries > li {
+.myprojects-projects > li {
   display: inline-block;
   border: 4px solid black;
 }
 
-.photography-countries > li > a {
+.myprojects-projects > li > a {
   position: relative;
 }
 
