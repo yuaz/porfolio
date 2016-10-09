@@ -1,9 +1,9 @@
 .front-name {
   font-family: Tahoma;
   text-align: left;
-  font-size: 100px;
+  font-size: 120px;
   color: #61B329;
-  padding-top: 32%;
+  padding-top: 25%;
   padding-left: 5%;
   position: relative;
 }
@@ -11,7 +11,7 @@
 .front-meta {
   font-family: Tahoma;
   text-align: left;
-  font-size: 40px;
+  font-size: 60px;
   color: #5F645E;
   padding-left: 5%;
   position: relative;
