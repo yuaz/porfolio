@@ -1,28 +1,37 @@
-<nav>
-  <div class="nav-position">
-  <ul class="nav {{include.navclass}}">
-    <li>
-      <a href="{{site.baseurl}}/#home">Home</a>
-    </li>﻿
-    <li>
-      <a href="{{site.baseurl}}/#aboutme">About Me</a>
-    </li>
-    <li class="dropdown">
-      <a href="{{site.baseurl}}/#myprojects"
-      class="{% if page.categories contains 'projects' %}current{% endif %}">Projects</a>
-      <ul class="dropdown-content">
-        <li><a href="{{site.baseurl}}/kaggle">Kaggle</a></li></br>
-        <li><a href="{{site.baseurl}}/idealab">IDEA</a></li></br>
-        <li><a href="{{site.baseurl}}/dataprojects">Personal Researches</a></li></br>
-      </ul>
-    </li>
-    <li>
-      <a href="{{site.baseurl}}/resume.pdf">Resume</a>
-    </li>
-    <li class="dropdown">
-      <a href="https://medium.com/@yuanzh"
-      class="{% if page.url contains 'blog' or page.url contains 'data-projects' %}current{% endif %}">Blog</a>
-    </li>
-  </ul>
-  </div>
-</nav>
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About Me</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Projects</a>
+                    </li>
+                    <li>
+                        <a href="{{site.baseurl}}/resume.pdf">Resume</a>
+                    </li>
+                    <li>
+                        <a href="https://medium.com/@yuanzh">Blog</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>

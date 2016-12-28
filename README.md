@@ -1,2 +1,2 @@
-# porfolio
-Project 1
+# portfolio
+Personal Projects and Work Expriences
