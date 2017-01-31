@@ -91,7 +91,6 @@ function draw(){
 function keyPressed() {
  var PAUSE = 80;
  var RESTART = 82;
-
  if (endGame){
    score.score = 0;
  }
