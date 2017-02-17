@@ -7,7 +7,7 @@ var endGame = false;
 var alertCond=false;
 var run = true;
 var pause = false;
-var gameSize = 600;
+var gameSize = 480;
 
 // snake parameters
 var snake;
@@ -51,21 +51,21 @@ function draw(){
   if (pause){
     fill(200);
     textSize(50);
-    textAlign(gameSize/3);
-    text("PAUSED", 200, gameSize/2);
+    textAlign(gameSize);
+    text("PAUSED", gameSize/3-10, gameSize/2+10);
   }
 
   if (endGame){
     fill(255);
     textSize(26);
-    text(scoreMessage, 215, 300);
+    text(scoreMessage, gameSize/3, gameSize/2);
   }
 
   if(alertCond){
     fill(200);
     textSize(30);
     textAlign(CENTER);
-    text(alertMessage, gameSize/2, gameSize/2);
+    text(alertMessage, gameSize/3-10, gameSize/2+10);
     setTimeout(resetAlert,1200);
   }
 
@@ -83,7 +83,7 @@ function draw(){
 
   fill(255);
   textSize(14);
-  text("Score: " + score.getScore(), Math.floor(gameSize*0.88), Math.floor(gameSize*0.98));
+  text("Score: " + score.getScore(), Math.floor(gameSize*0.84), Math.floor(gameSize*0.98));
 
 
 }

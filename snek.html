@@ -1,36 +1,101 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en-ca">
 
-<html>
 <head>
-  <meta charset="UTF-8">
-  <script language="javascript" type="text/javascript" src="project1_snake/p5.js"></script>
-  <script language="javascript" type="text/javascript" src="project1_snake/sketch.js"></script>
-  <script language="javascript" type="text/javascript" src="project1_snake/snake.js"></script>
-  <script language="javascript" type="text/javascript" src="project1_snake/food.js"></script>
-  <script language="javascript" type="text/javascript" src="project1_snake/body.js"></script>
-  <script language="javascript" type="text/javascript" src="project1_snake/score.js"></script>
-  <script language="javascript" type="text/javascript" src="project1_snake/skin.js"></script>
-  <style>
-    html, body {
-      height: 100%;
-    }
+    <meta charset="utf-8">
+    <script language="javascript" type="text/javascript" src="project1_snake/p5.js"></script>
+    <script language="javascript" type="text/javascript" src="project1_snake/sketch.js"></script>
+    <script language="javascript" type="text/javascript" src="project1_snake/snake.js"></script>
+    <script language="javascript" type="text/javascript" src="project1_snake/food.js"></script>
+    <script language="javascript" type="text/javascript" src="project1_snake/body.js"></script>
+    <script language="javascript" type="text/javascript" src="project1_snake/score.js"></script>
+    <script language="javascript" type="text/javascript" src="project1_snake/skin.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <style>
+      html, body {
+        height: 100%;
+      }
 
-    #sketch-holder {
-      margin: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  </style>
+      #sketch-holder {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+    <title>Yuan Zhang</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/creative.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
-<body style="position:fixed;">
-  <h1 style="text-align:center; font-size:40px">Snek</h1>
-  <div id="sketch-holder"></div>
-  <br>
-  <h4 style="text-align:center; font-size:20px; padding: 0px 80px 0px 80px;">This project is a collaboration between Yuan Zhang, Jia Yin Chen, Yu Qi Liu,
-     and Tianjing Li for McHacks 2017 inspired by The Coding Train. By collecting three "foods"
-      of the same color, you can enable different Power Ups! Be careful, when the snake is too long, it will start shedding...</h4>
+
+<body id="page-top" style="position:fixed">
+   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lobster+Two">
+   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Chivo">
+   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Caveat+Brush">
+   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Kaushan+Script">
+   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Pacifico">
+
+   <h1 style="text-align:center; font-size:40px">Snek</h1>
+   <div id="sketch-holder"></div>
+   <br>
+   <h4 style="text-align:center; font-size:16px; padding: 0px 80px 0px 80px;">A collaboration between Yuan Zhang, Jia Yin Chen, Yu Qi Liu,
+      and Tianjing Li for McHacks 2017 inspired and The Coding Train. By collecting three "foods"
+       of the same color, you can enable different Power Ups! Be careful, when the snake is too long, it will start shedding...</h4>
+
+        <div class="footer" id="contact">
+            <ul class="container">
+                <li>
+                    <p style="margin: 0 0 0"><a href="mailto:yzhang.8519@gmail.com"><i class="fa fa-envelope-o fa-2x sr-contact"></i></a></p>
+                </li>
+                <li>
+                    <p style="margin: 0 0 0"><a href="https://ca.linkedin.com/in/yuan-zhang-1a8977108"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></p>
+                </li>
+                <li>
+                    <p style="margin: 0 0 0"><a href="https://github.com/yuaz"><i class="fa fa-2x fa-github" aria-hidden="true"></i></a></p>
+                </li>
+                <li>
+                    <p style="margin: 0 0 0"><a href="https://medium.com/@yuanzh"><i class="fa fa-2x fa-medium" aria-hidden="true"></i></a></p>
+                </li>
+            </ul>
+            <p class="footer_text">&copy; 2016 <a href="http://yuanz.me">Yuan Zhang</a></p>
+        </div>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/creative.min.js"></script>
+
 </body>
 </html>
