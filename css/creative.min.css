@@ -64,6 +64,10 @@ p {
     line-height: 1.5;
 }
 
+.container-fluid {
+  background: rgba(255, 255, 255, 1);
+}
+
 .bg-primary {
     background: url('../img/background-me.jpg') no-repeat center center fixed;
     background-size: cover;
@@ -540,11 +544,16 @@ img::-moz-selection {
 }
 
 .posts {
-  margin: 30px;
+  margin: 70px 0px 0px 30px;
 }
 
-.posts li {
-  margin: 5px;
+
+.posts2 {
+  margin: 20px 0px 0px 0px;
+}
+
+.posts2 li {
+  margin: 10px;
 }
 
 background-size: cover;
