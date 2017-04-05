@@ -22,10 +22,10 @@ html {
     width: 100%
 }
 
-body {
+/*body {
     font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif;
     webkit-tap-highlight-color: #222
-}
+}*/
 
 .btn,
 .navbar-default,
@@ -62,7 +62,6 @@ a:hover {
 p {
     font-size: 16px;
     line-height: 1.5;
-    margin-bottom: 20px;
 }
 
 .bg-primary {
@@ -259,7 +258,14 @@ header .header-content .header-content-inner p {
 }
 
 .container {
-  text-align: center
+  width:  auto;
+  text-align: center;
+  padding: 10px 0px 0px 0px;
+  margin: 0px
+}
+
+.container li {
+  display: inline-block;
 }
 
 .footer_text {
@@ -531,6 +537,14 @@ img::selection {
 img::-moz-selection {
     color: #fff;
     background: 0 0
+}
+
+.posts {
+  margin: 30px;
+}
+
+.posts li {
+  margin: 5px;
 }
 
 background-size: cover;
