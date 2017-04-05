@@ -42,6 +42,11 @@ p {
   line-height: 1.5;
   margin-bottom: 20px;
 }
+
+.container-fluid {
+  background: rgba(255, 255, 255, 1);
+}
+
 .bg-primary {
   background: white url('../img/background-front.png') no-repeat center center fixed;
 }
